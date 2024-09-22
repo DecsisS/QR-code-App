@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    padding: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    background: rgb(140, 151, 255);
+    min-height: 40px;
+    max-height: 64px;
+}

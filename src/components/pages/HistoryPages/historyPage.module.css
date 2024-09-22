@@ -1,0 +1,11 @@
+.container {
+    padding-left: 20px;
+    height: 100%;
+    padding-bottom: 3%;
+}
+
+.container p {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

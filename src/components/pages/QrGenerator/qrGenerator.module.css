@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 40%;
+}
+
+.container input,
+.container button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 34px;
+    color: rgb(40, 40, 40);
+}
+
+.container input {
+    min-width: 150px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.container button {
+    background: rgb(199, 253, 222);
+}
+
+.qrBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+}
