@@ -1,14 +1,14 @@
 import React from 'react';
 import style from './nav.module.css';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
         <nav className={style.container}>
-            <NavLink to="/qr_scanner">QR - scanner</NavLink>
-            <NavLink to="/qr_generator">QR - generator</NavLink>
-            <NavLink to="/history_of_scan">History of scan</NavLink>
-            <NavLink to="/history_of_generate">History of generate</NavLink>
+            <Link to="/QR-code-App/qr_scanner">QR - scanner</Link>
+            <Link to="/QR-code-App/qr_generator">QR - generator</Link>
+            <Link to="/QR-code-App/history_of_scan">History of scan</Link>
+            <Link to="/QR-code-App/history_of_generate">History of generate</Link>
         </nav>
     );
 };
