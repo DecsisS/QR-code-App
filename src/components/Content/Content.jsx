@@ -11,7 +11,7 @@ const Content = () => {
     return (
         <div className={style.container}>
             <Routes>
-                <Route path="/" element={<DefaultPage />} />
+                <Route path="" element={<DefaultPage />} />
                 <Route path="/qr_scanner"element={<QrScanner />} />
                 <Route path="//qr_generator" element={<QrGenerator />} />
                 <Route path="/history_of_scan" element={<HistoryScan />} />
