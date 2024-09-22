@@ -21,6 +21,7 @@ const HistoryPage = (props) => {
 
     return (
         <div className={style.container}>
+            Изменения
             {props.page === 'scan'
                 ? <h4>History of scan</h4>
                 : <h4>History of generate</h4>}
