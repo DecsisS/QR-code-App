@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // base: "https://decsiss.github.io/QR-code-App/",
+  base: "/QR-code-App/",
 })
