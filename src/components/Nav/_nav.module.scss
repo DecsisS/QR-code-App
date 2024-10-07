@@ -1,0 +1,27 @@
+@use '../../globalStyles/_variables.scss';
+@use '../../globalStyles/mixins';
+
+.container {
+    @include mixins.flex-center;
+    align-items: center;
+    @include mixins.width-height;
+    gap: 5%;
+    padding: 20px;
+
+    a {
+        @include mixins.non-decoration;
+        color: variables.$nav-buttons-color;
+        background: variables.$nav-buttons-background;
+        text-align: center;
+        padding: 8px;
+        border-radius: 5px;
+        min-height: 40px;
+        max-height: 64px;
+
+        @include mixins.transition-hover;
+
+        &:hover {
+            @include mixins.buttons-hover(variables.$nav-buttons-color-hover);
+        }
+    }
+}

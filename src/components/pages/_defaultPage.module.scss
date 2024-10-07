@@ -1,0 +1,12 @@
+@use '../../globalStyles/mixins';
+
+.container {
+    @include mixins.flex-column;
+    text-align: center;
+    
+    img {
+        width: 40%;
+        max-width: 200px;
+        padding-bottom: 2%;
+    }
+}

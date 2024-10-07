@@ -1,0 +1,31 @@
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+};
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin width-height($width: 100%, $height: 100%) {
+    width: $width;
+    height: $height;
+}
+
+@mixin non-decoration {
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+@mixin buttons-hover ($color) {
+    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.067);
+    color: $color;
+};
+
+@mixin transition-hover {
+    transition-property: color box-shadow;
+    transition-duration: .3s;
+}

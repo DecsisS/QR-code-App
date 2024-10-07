@@ -1,0 +1,50 @@
+@use '../../../globalStyles/mixins';
+@use '../../../globalStyles/variables';
+
+form {
+    @include mixins.flex-center;
+    @include mixins.width-height(50%, 20%);
+
+    .inputBlock {
+        display: flex;
+        flex-direction: column;
+        @include mixins.width-height;
+
+        i {
+            color: variables.$error-color;
+            padding: 5px;
+        }
+    }
+
+    input,
+    button {
+        @include mixins.non-decoration;
+        color: variables.$text-color-black;
+        border-radius: 5px;
+        padding: 5px 10px;
+        height: 34px;
+    }
+
+    input {
+        min-width: 150px;
+        width: 96%;
+        margin-right: 4%;
+        border: 1px solid transparent;
+        transition: border .3s;
+
+        &:focus {
+            border-color: variables.$qrGen-button-background;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        background: variables.$qrGen-button-background;
+
+        @include mixins.transition-hover;
+
+        &:hover {
+            @include mixins.buttons-hover(variables.$qrGen-button-color-hover);
+        }
+    }
+}

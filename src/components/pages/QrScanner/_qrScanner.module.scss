@@ -1,0 +1,12 @@
+@use '../../../globalStyles/mixins';
+
+.container {
+    @include mixins.flex-column;
+    justify-content: space-around;
+    @include mixins.width-height(100%, 76vh);
+    padding-bottom: 2%;
+    
+    p {
+        margin: 0;
+    }
+}

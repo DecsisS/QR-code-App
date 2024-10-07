@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import HistoryPage from './HistoryPage';
 
-const HistoryGen = () => {
+const HistoryGen: FC = () => {
     return (
         <HistoryPage page="gen" />
     )

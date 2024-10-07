@@ -1,0 +1,17 @@
+.container {
+    padding: 0 3% 3% 3%;
+    height: 100%;
+    min-width: 40%;
+    
+    div {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-bottom: 20px;
+
+        p {
+            width: 90%;
+            overflow: hidden;
+        }
+    }
+}
