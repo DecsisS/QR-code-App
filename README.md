@@ -1,6 +1,6 @@
 ## QR-code App
 
-An application that allows you to scan QR codes and generate them for any word, line or link. Click [here]() to open the app.
+An application that allows you to scan QR codes and generate them for any word, line or link. Click [here](https://decsiss.github.io/QR-code-App/) to open the app.
 
 ## Powered by React.js & Vite
 
